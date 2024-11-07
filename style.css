@@ -10,7 +10,6 @@
   --shadow_color: 0 0 14px 0 #03da6769;
   --radius: 20px;
 }
-
 .counter-container {
   max-width: 1120px;
   margin: 0 auto;
@@ -35,7 +34,16 @@
   padding: 20px 0;
   background-color: transparent;
 }
-
+.counter {
+  color: white;
+}
+.counter span {
+  font-weight: 900;
+}
+.counter-name {
+  font-weight: 500;
+  font-size: 20px;
+}
 @media screen and (max-width: 550px) {
   .counter-container {
     padding: 0px 10px;
