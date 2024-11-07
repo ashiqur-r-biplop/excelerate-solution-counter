@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -34,4 +34,15 @@
   box-shadow: var(--shadow_color);
   padding: 20px 0;
   background-color: transparent;
+}
+
+@media screen and (max-width: 550px) {
+  .counter-container {
+    padding: 0px 10px;
+  }
+  .counter-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }
