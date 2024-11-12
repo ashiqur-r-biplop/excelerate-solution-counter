@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-color: black;
+}
 :root {
   --border_color: 1px solid #2da162;
   --shadow_color: 0 0 14px 0 #03da6769;
